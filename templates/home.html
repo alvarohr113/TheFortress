@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reverse Secure Proxy</title>
+</head>
+<body>
+
+    <form action="/returnjson" method="post">
+        <h1>Tu nombre es: </h1>
+        {% if name %}
+        <p>{{name}}</p>
+        {% else %}
+        <p> HACKEDHACKEDHACKED</p>
+        {% endif %}
+
+        <input type="hidden" name="name_id" value="{{name}}">
+        <input type="hidden"name="password_id" value="{{password}}"> 
+
+        <input type="submit" id="send_id">
+    </form>
+
+    
+</body>
+</html>
