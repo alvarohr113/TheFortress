@@ -7,5 +7,5 @@
 **The rule**: The "Treasury" must be **invisible** to the outside world. No one can access it directly via `localhost:5000`.
 They must go through the Nginx "Gate" at `localhost:8080`.
 
-[Link para los comandos basicos git](https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf)
+[Link para los comandos basicos git](https://training.github.com/downloads/es_ES/github-git-cheat-sheet.pdf)  
 [Link sintaxis de escritura y formatos basicos de markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
